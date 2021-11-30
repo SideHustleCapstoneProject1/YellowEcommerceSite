@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background: none;
+}
+.login-box h1{
+    /* float: left; */
+    font-size: 40px;
+    border-bottom: 4px solid grey;
+    margin-bottom: 20px;
+    padding: 13px 0;
+    background: none;
+    color: black;
+}
+
+.login-box img{
+    
+    width: 20% ;
+    border-radius: 50%;
+    margin: 5px auto 50px auto;
+    display: block;
+    background: none;
+    
+}
+.text-box{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    background: none;
+    border-bottom: 4px solid grey;
+}
+.text-box input{
+    border: none;
+    outline: none;
+    background: none;
+    color: grey;
+}
+.text-box i{
+    width: 40px;
+    background: none;
+}
+.btn{
+    
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    background: none;
+    padding: 30px 30px 30px 30px;
+}
+.btn input{
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    font-weight: bold;
+    padding: 20px;
+}
+.btn input:hover{
+    background-color: grey;
+}
+::placeholder{
+    color: black;
+    font-weight: bold;
+}
